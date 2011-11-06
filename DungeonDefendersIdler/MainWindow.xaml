@@ -1,0 +1,12 @@
+﻿<Window x:Class="DungeonDefendersIdler.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Dundef Idler" Height="109" Width="431" ResizeMode="CanMinimize">
+    <Grid>
+        <CheckBox Name="IdleWhenInForeground" Margin="5,5,5,0">
+            <Label Content="Send G keystrokes when Dungeon Defenders is in the foreground?" />
+        </CheckBox>
+        <Button Name="GoButton" Content="Stopped" Margin="0,32,0,0" />
+        <TextBox Name="FocusElement" MaxHeight="0" MaxWidth="0" />
+    </Grid>
+</Window>
